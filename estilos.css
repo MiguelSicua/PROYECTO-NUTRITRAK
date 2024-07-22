@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dbffef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fcffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    text-align: center;
+    width: 300px;
+}
+
+.logo img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #44a749;
+    margin: 0 0 10px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+input {
+    border: 1px solid #6cd771;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#btnIngreso {
+    background-color: #2E7D32;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+.forgot-password {
+    color: #6cd771;
+    margin-top: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: #ffffff;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
